@@ -1,0 +1,216 @@
+{
+  "basics": {
+    "name": "Ervin Racz",
+    "label": "Software Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C4E03AQGbYoqn2rx-ng/profile-displayphoto-shrink_800_800/0/1632037374410?e=1666828800&v=beta&t=Sf4buKGGsAaZRaRDj4zz6ojSS3DP-uYo2oZ_0mW-UMI",
+    "email": "ervin.racz@protonmail.com",
+    "phone": "+40 770 315 098",
+    "url": "https://johndoe.com",
+    "summary": "Focused, hard-working and passionate about putting complex algorithms, and ideas into practice. An advocate of TDD, Clean Architecture, and DDD.",
+    "location": {
+      "city": "Cluj-Napoca",
+      "countryCode": "RO"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Ervin",
+        "url": "https://www.linkedin.com/in/ervin-r%C3%A1cz-05137a140/"
+      },
+      {
+        "network": "YouTube",
+        "username": "Ervin",
+        "url": "https://www.youtube.com/user/gombike95/videos"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Sitline Technologies",
+      "position": "Software Engineer",
+      "url": "https://www.linkedin.com/company/sitline-technology/about/",
+      "startDate": "2022-03-01",
+      "summary": "",
+      "highlights": [
+        "Made low-level/high-level system design ensuring correct data flow between 4 different services",
+        "Took project initiatives and lead them through implementation to completion",
+        "Developed ETL processes for on-prem solutions",
+        "Implemented partitioning and parallel workflows to reduce the processing time of big data batches",
+        "Rewrote batch jobs for GraalVM to reduce package size and memory usage",
+        "Migrated Java processes, Databases to AWS to reduce IT costs by ~60%",
+        "Tech-stack: Java 17, Grafana, Docker, docker-compose, Ansible, Spring Boot, Spring Batch, PostgreSQL, QGIS, Linux"
+      ]
+    },
+    {
+      "name": "Siemens Energy",
+      "position": "Software Engineer & Scrum Master",
+      "url": "https://www.linkedin.com/company/siemens-energy/about/",
+      "startDate": "2021-09-01",
+      "endDate": "2022-03-01",
+      "summary": "",
+      "highlights": [
+        "Made project setup decision for a greenfield project: defining agile processes and technologies to be used",
+        "Ensured best practices are followed like “Feature / Vertical Stories” and “API Design First” approach",
+        "Coached our PO in user story creation, road-map adjustments, and prioritization",
+        "Delivered core features of the application",
+        "Created a series of reusable UI components including a modular data table with various pluggable features",
+        "Became the main code reviewer across 3 different teams",
+        "Tech-stack: Java 11, Spring Boot Micro-services, Docker, Kubernetes, PostgreSQL, React, Typescript, React Table, React Query, React Aria, Nx, TailwindCSS, Storybook, Linux"
+      ]
+    },
+    {
+      "name": "Bosch",
+      "position": "Software Engineer & Scrum Master",
+      "url": "https://www.linkedin.com/company/boschromania/about/",
+      "startDate": "2019-07-01",
+      "endDate": "2021-09-01",
+      "summary": "",
+      "highlights": [
+        "Led a team of 6 people",
+        "Improved productivity of the team by reducing the development cycle by optimizing the project setup",
+        "Reduced overall code complexity of the project by proposing and then introducing some architectural changes",
+        "Made several pages of the web application 30 - 50% faster by data access optimization (JPA, SQL, improving on data models, etc.).",
+        "Trained 10+ individuals in handling software development cycles, as part of their induction processes",
+        "Interviewed 30+ applicants during the seasonal recruitment process of juniors",
+        "Tech-stack: Java 8, Spring, Java EE, JSF, JAX-RS, JPA, JPQL, React, jQuery, Oracle DB, WebLogic, JUnit, Ant, Gradle"
+      ]
+    },
+    {
+      "name": "Sitline Technologies",
+      "position": "Software Engineer",
+      "url": "https://www.linkedin.com/company/ngi-systems/about/",
+      "startDate": "2017-03-01",
+      "endDate": "2019-04-01",
+      "summary": "",
+      "highlights": [
+        "Maintained highly available distributed system",
+        "Removed bugs from a Fin-tech company's web application, making it 50% more efficient than before.",
+        "Developed Innovative payment solutions; applied DUKPT key management system",
+        "Provided feedback to our credit card reader vendor about their Firmware and SDK software to eliminate integration road-blocks",
+        "Developed strategies based on prior research to capture motion (e.g. with IMU sensors)",
+        "Designed an interface for humanoid robot and implemented it with Android SDK",
+        "Tech: Java 8, gRPC, ORMlite, PostgreSQL, React, TypeScript, Android SDK, JUnit, Docker, Kubernetes, Junit, Bazel, Linux, Jira, Git"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ]
+}
+
+
+
+Ervin Rácz
+Senior Software Engineer - Full-Stack
+
+Cluj-Napoca
+
+
+PERSONAL INFORMATION
+Address: , Cluj-Napoca,
+Nationality: Driving License: Hobbies:
+
+SOCIAL PROFILES
+* LinkedIn: https: //www.linkedin.com/in/ervin-r%C3%A1cz-05137a140/
+* Some of my old hobby project: https: //www.youtube.com/user/gombike95/videos
+
+LANGUAGES
+★★★★☆ English
+★★★★★ Hungarian
+★★★☆☆ Romanian
+
+SKILLS
+Java
+TypeScript
+Spring Boot
+React
+SQL
+HTML & CSS
+Docker
+Ansible
+gRPC
+REST
+Node.js
+AWS
+Microservices
+JPA
+Linux
+Git
+Kubernetes
+Gradle
+Bazel
+TailwindCSS
+Android SDK
+Python
+C++
+MongoDB
+Spring Batch
+Devops
+
+
+EDUCATION
+* September 2019
+Technical University of Cluj-Napoca, Master`s degree in Software Engineering
+
+Dissertation project: Comparative study of the two most popular cross-platform mobile application development frameworks: React Native and Flutter with multiple objectives.
+* September 2014 – July 2018
+Technical University of Cluj-Napoca, Bachelor`s degree in Robotics
+
+My thesis project: Creating a stereo vision system with two cameras displaced horizontally from one another. They are used to obtain the human-like binocular vision. The output of the stereo vision and special positional information was processed in the Unity game engine in real-time.
+* September 2010 – July 2014
+“Mihai Eminescu” National College, Oradea Baccalaureate
+
+Profile: Mathematics &amp; Intensive Informatics
+Rewarded at programming contests: Olympiad – #6 regional
+Kalkulusz – #3 national
