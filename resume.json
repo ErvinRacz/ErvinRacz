@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Ervin Racz",
-    "label": "Software Engineer",
+    "label": "Software Engineer (Full Stack)",
     "image": "https://media-exp1.licdn.com/dms/image/C4E03AQGbYoqn2rx-ng/profile-displayphoto-shrink_800_800/0/1632037374410?e=1666828800&v=beta&t=Sf4buKGGsAaZRaRDj4zz6ojSS3DP-uYo2oZ_0mW-UMI",
     "email": "ervin.racz@protonmail.com",
     "phone": "+40 770 315 098",
     "url": "https://johndoe.com",
-    "summary": "Focused, hard-working and passionate about putting complex algorithms, and ideas into practice. An advocate of TDD, Clean Architecture, and DDD.",
+    "summary": "Software Engineer with 5+ YOE working on web applications. I love making system designs and I am an advocate of TDD, Clean Architecture, and DDD.",
     "location": {
       "city": "Cluj-Napoca",
       "countryCode": "RO"
@@ -14,12 +14,12 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Ervin",
+        "username": "LinkedIn Profile",
         "url": "https://www.linkedin.com/in/ervin-r%C3%A1cz-05137a140/"
       },
       {
         "network": "YouTube",
-        "username": "Ervin",
+        "username": "Old Hobby Projects",
         "url": "https://www.youtube.com/user/gombike95/videos"
       }
     ]
@@ -27,124 +27,241 @@
   "work": [
     {
       "name": "Sitline Technologies",
+      "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQECdba_aC3hDw/company-logo_200_200/0/1620449497217?e=1669852800&v=beta&t=sQdIEGem4VcpBEnwiAzcIUQ5tulvcR9hR-g9ICezAEQ",
       "position": "Software Engineer",
-      "url": "https://www.linkedin.com/company/sitline-technology/about/",
+      "website": "https://www.linkedin.com/company/sitline-technology/about/",
       "startDate": "2022-03-01",
-      "summary": "",
+      "location": "Cluj-Napoca, Romania",
+      "keywords": [
+        "Java 17",
+        "Grafana",
+        "Docker",
+        "docker-compose",
+        "Ansible",
+        "Spring Boot",
+        "Spring Batch",
+        "PostgreSQL",
+        "QGIS",
+        "Linux"
+      ],
       "highlights": [
-        "Made low-level/high-level system design ensuring correct data flow between 4 different services",
-        "Took project initiatives and lead them through implementation to completion",
+        "Made low-level/high-level system design ensuring correct data flow between multiple services",
+        "Took project initiatives and led them through implementation to completion",
         "Developed ETL processes for on-prem solutions",
         "Implemented partitioning and parallel workflows to reduce the processing time of big data batches",
         "Rewrote batch jobs for GraalVM to reduce package size and memory usage",
-        "Migrated Java processes, Databases to AWS to reduce IT costs by ~60%",
-        "Tech-stack: Java 17, Grafana, Docker, docker-compose, Ansible, Spring Boot, Spring Batch, PostgreSQL, QGIS, Linux"
+        "Migrated Java processes, Databases to AWS to reduce IT costs by ~60%"
       ]
     },
     {
       "name": "Siemens Energy",
+      "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQG8Dgd_PQRiYg/company-logo_200_200/0/1656686376204?e=1669852800&v=beta&t=beiKx_hzKYrokI4Q7EfgbrulqFw-aMjszhStOL3elxM",
       "position": "Software Engineer & Scrum Master",
-      "url": "https://www.linkedin.com/company/siemens-energy/about/",
+      "website": "https://www.linkedin.com/company/siemens-energy",
       "startDate": "2021-09-01",
       "endDate": "2022-03-01",
-      "summary": "",
+      "location": "Remote - Cluj-Napoca, Romania",
+      "keywords": [
+        "Java 11",
+        "Spring Boot microservices",
+        "Docker",
+        "Kubernetes",
+        "PostgreSQL",
+        "React",
+        "Typescript",
+        "React Table",
+        "React Query",
+        "React Aria",
+        "Nx",
+        "TailwindCSS",
+        "Storybook",
+        "Linux"
+      ],
       "highlights": [
         "Made project setup decision for a greenfield project: defining agile processes and technologies to be used",
         "Ensured best practices are followed like “Feature / Vertical Stories” and “API Design First” approach",
         "Coached our PO in user story creation, road-map adjustments, and prioritization",
         "Delivered core features of the application",
         "Created a series of reusable UI components including a modular data table with various pluggable features",
-        "Became the main code reviewer across 3 different teams",
-        "Tech-stack: Java 11, Spring Boot Micro-services, Docker, Kubernetes, PostgreSQL, React, Typescript, React Table, React Query, React Aria, Nx, TailwindCSS, Storybook, Linux"
+        "Became the main code reviewer across 3 different teams"
       ]
     },
     {
       "name": "Bosch",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQEgVmTjX5Qv1Q/company-logo_200_200/0/1555479505468?e=1669852800&v=beta&t=YAzS_t7QHAllP2jQkESrPYmVYOjybYTlXsJNZ_7OQW8",
       "position": "Software Engineer & Scrum Master",
-      "url": "https://www.linkedin.com/company/boschromania/about/",
+      "website": "https://www.linkedin.com/company/boschromania",
       "startDate": "2019-07-01",
       "endDate": "2021-09-01",
-      "summary": "",
+      "location": "Cluj-Napoca, Romania",
+      "keywords": [
+        "Java 8",
+        "Spring",
+        "Java EE",
+        "JSF",
+        "JAX-RS",
+        "JPA",
+        "JPQL",
+        "React",
+        "jQuery",
+        "Oracle DB",
+        "WebLogic",
+        "JUnit",
+        "Ant",
+        "Gradle"
+      ],
       "highlights": [
         "Led a team of 6 people",
         "Improved productivity of the team by reducing the development cycle by optimizing the project setup",
         "Reduced overall code complexity of the project by proposing and then introducing some architectural changes",
         "Made several pages of the web application 30 - 50% faster by data access optimization (JPA, SQL, improving on data models, etc.).",
         "Trained 10+ individuals in handling software development cycles, as part of their induction processes",
-        "Interviewed 30+ applicants during the seasonal recruitment process of juniors",
-        "Tech-stack: Java 8, Spring, Java EE, JSF, JAX-RS, JPA, JPQL, React, jQuery, Oracle DB, WebLogic, JUnit, Ant, Gradle"
+        "Interviewed 30+ applicants during the seasonal recruitment process of juniors"
       ]
     },
     {
-      "name": "Sitline Technologies",
+      "name": "NGI Systems",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQGsv6XJnwohjw/company-logo_200_200/0/1547635956574?e=1669852800&v=beta&t=V9vorc4wJTLlJzto8En-z9PqFQgbMFMAXe-0lX1B1hk",
       "position": "Software Engineer",
-      "url": "https://www.linkedin.com/company/ngi-systems/about/",
+      "website": "https://www.linkedin.com/company/ngi-systems",
       "startDate": "2017-03-01",
       "endDate": "2019-04-01",
-      "summary": "",
+      "location": "Cluj-Napoca, Romania",
+      "keywords": [
+        "Java 8",
+        "gRPC",
+        "ORMlite",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "Android SDK",
+        "JUnit",
+        "Docker",
+        "Kubernetes",
+        "Junit",
+        "Bazel",
+        "Linux",
+        "Jira",
+        "Git"
+      ],
       "highlights": [
         "Maintained highly available distributed system",
-        "Removed bugs from a Fin-tech company's web application, making it 50% more efficient than before.",
+        "Removed bugs from a Fin-tech company's web application, making operations 50% more efficient than before",
         "Developed Innovative payment solutions; applied DUKPT key management system",
         "Provided feedback to our credit card reader vendor about their Firmware and SDK software to eliminate integration road-blocks",
         "Developed strategies based on prior research to capture motion (e.g. with IMU sensors)",
-        "Designed an interface for humanoid robot and implemented it with Android SDK",
-        "Tech: Java 8, gRPC, ORMlite, PostgreSQL, React, TypeScript, Android SDK, JUnit, Docker, Kubernetes, Junit, Bazel, Linux, Jira, Git"
+        "Designed an interface for humanoid robot and implemented it with Android SDK"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "institution": "Technical University of Cluj-Napoca",
+      "area": "in Software Engineering",
+      "studyType": "Master`s degree ",
+      "startDate": "2019-09-01"
+    },
+    {
+      "institution": "Technical University of Cluj-Napoca",
+      "area": "in Robotics",
+      "studyType": "Bachelor`s degree",
+      "startDate": "2014-09-01",
+      "endDate": "2018-07-01"
+    },
+    {
+      "institution": "“Mihai Eminescu” National College",
+      "area": ": Mathematics and Intensive Informatics",
+      "studyType": "High School",
+      "startDate": "2010-09-01",
+      "endDate": "2014-07-01"
     }
   ],
   "awards": [
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "3rd place - Kalkulusz Programming Contest",
+      "date": "2013-03-01",
+      "awarder": "Liceul Teoretic „Bolyai Farkas”",
+      "summary": "National Competition in Informatics: Data structures and Algorithms"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Front End",
       "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "TailwindCSS",
+        "React",
+        "JQuery",
+        "TypeScript",
+        "React Table",
+        "React Query",
+        "Redux",
+        "Zustand",
+        "Nx Micro-FrontEnds"
+      ]
+    },
+    {
+      "name": "Back End",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "TypeScript",
+        "NodeJS",
+        "Next.js",
+        "Spring Batch",
+        "gRPC",
+        "REST",
+        "Microservices",
+        "SQL",
+        "Prisma",
+        "JPA",
+        "PostgreSQL",
+        "Concurrent Programming"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Docker",
+        "docker-compose",
+        "Security / Networking",
+        "Kubernetes",
+        "AWS",
+        "CI/CD pipelines",
+        "GitLab",
+        "GitHub",
+        "Ansible",
+        "Bash scripting",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "level": "Beginner",
+      "keywords": [
+        "Android SDK",
+        "Flutter",
+        "React Native",
+        "MobX"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
+      "fluency": "Advanced speaker"
+    },
+    {
+      "language": "Hungarian",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
+    },
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "language": "Romanian",
+      "fluency": "Advanced speaker"
     }
   ]
 }
