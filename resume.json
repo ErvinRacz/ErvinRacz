@@ -6,7 +6,7 @@
     "email": "ervin.racz@protonmail.com",
     "phone": "+40 770 315 098",
     "url": "https://johndoe.com",
-    "summary": "Software Engineer with 5+ YOE working on web applications. I love making system designs and I am an advocate of TDD, Clean Architecture, and DDD.",
+    "summary": "Software Engineer with 5+ YOE working on (FinTech & industrial) web applications. I love making system designs, putting complex algorithms and ideas into practice, and I am an advocate of TDD, Clean Architecture, and DDD.",
     "location": {
       "city": "Cluj-Napoca",
       "countryCode": "RO"
@@ -147,10 +147,10 @@
       "highlights": [
         "Maintained highly available distributed system",
         "Removed bugs from a Fin-tech company's web application, making operations 50% more efficient than before",
-        "Developed Innovative payment solutions; applied DUKPT key management system",
+        "Developed Innovative payment solutions; integrated with parts of business-critical DUKPT key management system",
         "Provided feedback to our credit card reader vendor about their Firmware and SDK software to eliminate integration road-blocks",
         "Developed strategies based on prior research to capture motion (e.g. with IMU sensors)",
-        "Designed an interface for humanoid robot and implemented it with Android SDK"
+        "Designed Human-Machine Interface for a humanoid robot and implemented it with Android SDK"
       ]
     }
   ],
@@ -187,7 +187,7 @@
   "skills": [
     {
       "name": "Front End",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "HTML",
         "CSS",
@@ -204,7 +204,7 @@
     },
     {
       "name": "Back End",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "Java",
         "Spring Boot",
