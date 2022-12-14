@@ -2,7 +2,7 @@
   "basics": {
     "name": "Ervin Racz",
     "label": "Software Engineer (Full Stack)",
-    "image": "https://media-exp1.licdn.com/dms/image/C4E03AQGbYoqn2rx-ng/profile-displayphoto-shrink_800_800/0/1632037374410?e=1666828800&v=beta&t=Sf4buKGGsAaZRaRDj4zz6ojSS3DP-uYo2oZ_0mW-UMI",
+    "image": "https://media-exp1.licdn.com/dms/image/C4E03AQGbYoqn2rx-ng/profile-displayphoto-shrink_800_800/0/1632037374410?e=1675296000&v=beta&t=ekUiTgiY7JMtn9xHx_xHMOQlWtPHc7lcbHhFuNhUlUs",
     "email": "ervin.racz@protonmail.com",
     "phone": "+40 770 315 098",
     "url": "https://johndoe.com",
@@ -27,7 +27,7 @@
   "work": [
     {
       "name": "Sitline Technologies",
-      "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQECdba_aC3hDw/company-logo_200_200/0/1620449497217?e=1669852800&v=beta&t=sQdIEGem4VcpBEnwiAzcIUQ5tulvcR9hR-g9ICezAEQ",
+      "image": "https://www.linkedin.com/company/sitline-technology/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BelDxJZIGSw2ZW%2B8iaTNPQw%3D%3D",
       "position": "Software Engineer",
       "website": "https://www.linkedin.com/company/sitline-technology/about/",
       "startDate": "2022-03-01",
@@ -55,7 +55,7 @@
     },
     {
       "name": "Siemens Energy",
-      "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQG8Dgd_PQRiYg/company-logo_200_200/0/1656686376204?e=1669852800&v=beta&t=beiKx_hzKYrokI4Q7EfgbrulqFw-aMjszhStOL3elxM",
+      "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQG8Dgd_PQRiYg/company-logo_100_100/0/1656686376204?e=1678320000&v=beta&t=Jvi32Zsr-eNqCugr0kzqz09fVC5z0jX_x0laYzlVzHM",
       "position": "Software Engineer & Scrum Master",
       "website": "https://www.linkedin.com/company/siemens-energy",
       "startDate": "2021-09-01",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Bosch",
-      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQEgVmTjX5Qv1Q/company-logo_200_200/0/1555479505468?e=1669852800&v=beta&t=YAzS_t7QHAllP2jQkESrPYmVYOjybYTlXsJNZ_7OQW8",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQEgVmTjX5Qv1Q/company-logo_100_100/0/1555479505468?e=1678320000&v=beta&t=KHLrk7Qg0mj_GvI56WXKDwBOFp_gbi5W8YlJZIK_XVk",
       "position": "Software Engineer & Scrum Master",
       "website": "https://www.linkedin.com/company/boschromania",
       "startDate": "2019-07-01",
@@ -121,7 +121,7 @@
     },
     {
       "name": "NGI Systems",
-      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQGsv6XJnwohjw/company-logo_200_200/0/1547635956574?e=1669852800&v=beta&t=V9vorc4wJTLlJzto8En-z9PqFQgbMFMAXe-0lX1B1hk",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQGsv6XJnwohjw/company-logo_100_100/0/1547635956574?e=1678320000&v=beta&t=LlNzSB1wS9Ko3zIT9ko0ulxuOqe_i3bsBlB8NHQBudM",
       "position": "Software Engineer",
       "website": "https://www.linkedin.com/company/ngi-systems",
       "startDate": "2017-03-01",
@@ -145,10 +145,10 @@
         "Git"
       ],
       "highlights": [
-        "Maintained highly available distributed system",
-        "Removed bugs from a Fin-tech company's web application, making operations 50% more efficient than before",
+        "Maintained microservices",
+        "Removed bugs from a Fin-tech company's web application, making operations 30% more efficient than before",
         "Developed Innovative payment solutions; integrated with parts of business-critical DUKPT key management system",
-        "Provided feedback to our credit card reader vendor about their Firmware and SDK software to eliminate integration road-blocks",
+        "Provided feedback to our credit card reader vendor about their Firmware and SDK to eliminate integration road-blocks",
         "Developed strategies based on prior research to capture motion (e.g. with IMU sensors)",
         "Designed Human-Machine Interface for a humanoid robot and implemented it with Android SDK"
       ]
