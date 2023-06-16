@@ -23,9 +23,8 @@
     "@jsonresume/jsonresume-theme-class": "^0.2.1",
     "jsonresume-theme-even": "^0.17.0",
     "jsonresume-theme-onepage": "^0.0.3",
-    "jsonresume-theme-stackoverflow": "^2.0.0",
+    "jsonresume-theme-stackoverflow": "^2.0.2",
     "jsonresume-theme-straightforward": "^0.1.3",
-    "puppeteer": "^16.2.0",
-    "resumed": "^1.0.3"
+    "resume-cli": "^3.0.8"
   }
 }
