@@ -1,21 +1,18 @@
 # resume - getting started
 
-```
-nvm install v14.1.0
-```
-
-```
-npm install -g resume-cli
+```sh
+nvm install v14.1.0 or above
 ```
 
-```
-git clone https://github.com/ErvinRacz/jsonresume-theme-stackoverflow-with-logos
-```
-
-```
-resume serve --theme ./jsonresume-theme-stackoverflow-with-logos/
+```sh
+git clone --recursive
+npm install
 ```
 
+```sh
+npx resume serve --theme ./jsonresume-theme-stackoverflow-with-logos/
 ```
-resume export resume.pdf --theme stackoverflow-with-logos
+
+```sh
+npx resume export resume.pdf --theme stackoverflow-with-logos
 ```
