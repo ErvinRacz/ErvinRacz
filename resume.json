@@ -1,6 +1,6 @@
 {
     "basics": {
-        "name": "Ervin Racz",
+        "name": "Ervin Rácz",
         "label": "Software Engineer (Java / Full Stack)",
         "image": "images/ervin.jpeg",
         "email": "ervin.racz@protonmail.com",
@@ -20,7 +20,7 @@
     },
     "work": [
         {
-            "name": "different companies as Freelancer",
+            "name": "Sitline and other companies as Freelancer",
             "position": "Software Engineer",
             "startDate": "2022-04-01",
             "location": "Remote - Cluj-Napoca, Romania",
@@ -39,16 +39,17 @@
                 "Linux"
             ],
             "highlights": [
-                "Single-handedly spearheaded the implementation of the backend infrastructure for Java microservices on Kubernetes, leveraging Helm charts. This involved architecting and setting up the entire infrastructure, ensuring seamless deployment and scalability. By orchestrating the deployment process, I successfully established a robust and efficient foundation for the microservices ecosystem, enabling seamless development, deployment, and management of the application.",
+                "Single-handedly spearheaded the implementation of the backend infrastructure for Java microservices on Kubernetes, leveraging Helm charts. This involved architecting and setting up the entire infrastructure for the microservices, ensuring seamless deployment, scalability, development and management of the application.",
                 "Demonstrated expertise in designing both low-level and high-level system architectures, ensuring seamless data flow between multiple services.",
                 "Developed efficient Extract, Transform, Load (ETL) processes for on-prem solutions, enabling smooth data integration and processing.",
-                "Implemented partitioning and parallel workflows, significantly reducing the processing time of large-scale data batches and enhancing overall performance.",
+                "Implemented parallel workflows, significantly reducing the processing time of large-scale data batches.",
                 "Optimized batch jobs by updating them for GraalVM, resulting in reduced package size and improved memory usage.",
                 "Successfully migrated Java processes and databases to AWS, resulting in a significant reduction of hosting costs by approximately 60%, while maintaining system functionality and performance."
             ]
         },
         {
             "name": "Siemens Energy",
+            "summary": "Worked on a web based operational platform designed for power plants:",
             "image": "images/siemens.jpeg",
             "position": "Software Engineer & Scrum Master",
             "url": "https://www.linkedin.com/company/siemens-energy",
@@ -75,13 +76,14 @@
                 "Contributed to project setup process for a greenfield project, strategically defining agile processes and selecting optimal technologies to ensure project success.",
                 "Provided valuable coaching and guidance to the Product Owner (PO) in user story creation, road-map adjustments, and prioritization, leading to improved project alignment and execution.",
                 "Enforced the adoption of best practices, such as the \"Feature / Vertical Stories\" and \"API Design First\" approach, to maintain high-quality standards throughout development.",
-                "Successfully delivered critical core features of the application, meeting project milestones and driving its overall progress.",
+                "Successfully delivered core features of the application, meeting project milestones.",
                 "Designed and developed a collection of reusable UI components, including a modular data table with customizable features, enhancing code reusability and improving development efficiency.",
                 "Assumed the role of the main code reviewer for the FE across three different teams, ensuring code quality, adherence to coding standards, and fostering knowledge sharing among team members."
             ]
         },
         {
             "name": "Bosch",
+            "summary": "Worked on new and legacy (web based) tools made for hardware engineers:",
             "image": "images/bosch.jpeg",
             "position": "Software Engineer & Scrum Master",
             "url": "https://www.linkedin.com/company/boschromania",
@@ -108,13 +110,14 @@
                 "Successfully led and managed a team of 6 professionals, fostering a collaborative and productive work environment.",
                 "Mentored and trained over 10 individuals, equipping them with the necessary skills and knowledge to navigate software development cycles.",
                 "Streamlined the development cycle and significantly enhanced team productivity by optimizing project setup.",
-                "Implemented architectural changes (Anemic Business objects => Rich Busines Objects) to effectively reduce the overall code complexity of the project, improved maintainability and scalability for many modules.",
+                "Implemented architectural changes (Anemic Business Objects => Rich Business Objects) to effectively reduce the overall code complexity of the project, improved maintainability and scalability for many modules.",
                 "Boosted the performance of multiple web application pages by 30-50% through data access optimization techniques such as JPA, SQL, and data model enhancements.",
                 "Conducted extensive interviews with more than 30 applicants during the seasonal recruitment process, ensuring the selection of technically capable junior team members."
             ]
         },
         {
             "name": "NGI Systems",
+            "summary": "Worked on FinTech applications and R&D projects:",
             "image": "images/ngi.jpeg",
             "position": "Software Engineer",
             "url": "https://www.linkedin.com/company/ngi-systems",
@@ -146,6 +149,70 @@
                 "Utilized prior research to devise and implement motion capture strategies, leveraging IMU sensors for improved performance.",
                 "Designed and implemented a prototype Human-Machine Interface for a humanoid robot, utilizing Android SDK for seamless interaction."
             ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "WakeApp",
+            "summary": "Developed an innovative an alarm clock system designed to effectively prevent oversleeping. Incorporated technologies utilizing a pressure-sensitive material to accurately detect if the user falls back to sleep.",
+            "startDate": "2017-10-01",
+            "endDate": "2018-06-01",
+            "city": "Cluj-Napoca",
+            "keywords": ["IoT","React Native", "TS", "Bluetooth LE", "nRF51", "Arm Mbed", "C++"]
+        },
+        {
+            "name": "Optical Motion Capturing",
+            "summary": "Implemented a computer stereo vision project focused on extracting precise 3D information from digital images.",
+            "startDate": "2017-10-01",
+            "endDate": "2018-06-01",
+            "city": "Cluj-Napoca",
+            "url": "https://youtu.be/euRduM-sYiE",
+            "keywords": ["React Native", "TS", "Bluetooth LE", "nRF51"]
+        },
+        {
+            "name": "Home Control System",
+            "summary": "Implemented a web-based application. Demonstrated proficiency in integrating the application with an ATmega microcontroller via a compact WiFi module. Developed an accompanying electrical circuitry to enable remote control of various devices within my room through internet connectivity.",
+            "startDate": "2016-12-01",
+            "endDate": "2017-03-01",
+            "city": "Cluj-Napoca",
+            "url": "https://youtu.be/522xPkjWb9s",
+            "keywords": ["PHP", "AJAX", "ARM", "C++", "DIY PCB", "Wi-Fi communication"]
+        },
+        {
+            "name": "2D Motion Modeling with Python",
+            "startDate": "2017-10-01",
+            "endDate": "2018-06-01",
+            "city": "Cluj-Napoca",
+            "url": "https://youtu.be/4OrqEjw6cVo",
+            "keywords": ["Python", "Graphs", "Canvas", "Interpolation"]
+        },
+        {
+            "name": "Modeling Kinematics in MATLAB",
+            "summary": "Developed a Python app utilizing cubic interpolation to generate the path of a Stewart Platform's tooltip. Users can interact with a canvas, creating points that are saved and loaded in Matlab. The resulting motion is visualized in Matlab, showcasing proficiency in kinematics and simulation.",
+            "startDate": "2017-10-01",
+            "endDate": "2018-06-01",
+            "city": "Cluj-Napoca",
+            "url": "https://youtu.be/Qtq1skYjC68",
+            "keywords": ["React Native", "TS", "Bluetooth LE", "nRF51"]
+        },
+
+{
+            "name": "Ping-pong Playing Robots",
+            "summary": "Implemented physics-based simulation in Robot Studio. Created a dynamic scene featuring two delta robots engaging in a game of ping pong.",
+            "startDate": "2017-10-01",
+            "endDate": "2018-06-01",
+            "city": "Cluj-Napoca",
+            "url": "https://youtu.be/xQ4TpXagixU",
+            "keywords": ["Robot Studio", "C#", "Trajectory Prediction", "Delta Robots"]
+        },
+        {
+            "name": "Rigid Body Fitting - Optimization Algorithm",
+            "summary": "Implemented a graphical application showcasing the effectiveness of Singular Value Decomposition (SVD) techniques in optimizing solutions for various problems.",
+            "startDate": "2017-10-01",
+            "endDate": "2018-06-01",
+            "city": "Cluj-Napoca",
+            "url": "https://youtu.be/3sKq9cMq1EU",
+            "keywords": ["Optimization Problems", "SVD", "C#"]
         }
     ],
     "education": [
@@ -250,6 +317,7 @@
                 "Functional P.",
                 "Design Patterns",
                 "Batch Processing",
+                "ETL",
                 "Event Processing"
             ]
         },
