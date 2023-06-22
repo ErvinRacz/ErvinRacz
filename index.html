@@ -1,0 +1,1509 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Ervin Rácz</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1.27rem;
+}
+
+em {
+  color: #757575;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0.5rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 15em;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.section > section > section {
+  margin-bottom: 1rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
+}
+
+@media print {
+  #profiles a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    margin: 0 0 1em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 3);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-map-marker-alt:before {
+    padding-left: 0.1em;
+  }
+}
+
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<img class="image" src="images/ervin.jpeg" alt="Ervin Rácz" />
+    		<div class="middle">
+    			<h1 class="name">Ervin Rácz</h1>
+    			<h2 class="label">Software Engineer (Java / Full Stack)</h2>
+    		</div>
+    
+    		<span class="location">
+    			<span class="city">Cluj-Napoca,</span>
+    			<span class="countryCode">RO</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="email">
+    				<span class="far fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:ervin.racz@protonmail.com">ervin.racz@protonmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fas fa-mobile-alt"></span>
+    				<a class="hide-href-print" href="tel:+40 770 315 098">+40 770 315 098</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-youtube youtube social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.youtube.com/user/gombike95/videos">Old Hobby Projects</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section">
+    		<section class="main-summary">
+    			<div><p><p>Software Engineer with ~6 YOE working on (FinTech &amp; industrial) web applications. I love making system designs, putting complex algorithms and ideas into practice, and I am an advocate of TDD, Clean Architecture, and DDD.</p></p></div>
+    		</section>
+    	</section>
+    
+    <section class="section">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Front End
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>HTML</li>
+    				<li>CSS</li>
+    				<li>TailwindCSS</li>
+    				<li>React</li>
+    				<li>JQuery</li>
+    				<li>TypeScript</li>
+    				<li>React Table</li>
+    				<li>React Query</li>
+    				<li>Redux</li>
+    				<li>Zustand</li>
+    				<li>Nx Micro-FrontEnds</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Back End
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Java</li>
+    				<li>Spring Boot</li>
+    				<li>TypeScript</li>
+    				<li>NodeJS</li>
+    				<li>Next.js</li>
+    				<li>Spring Batch</li>
+    				<li>gRPC</li>
+    				<li>REST</li>
+    				<li>Microservices</li>
+    				<li>SQL</li>
+    				<li>Prisma</li>
+    				<li>JPA</li>
+    				<li>PostgreSQL</li>
+    				<li>Redis</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				DevOps
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Docker</li>
+    				<li>Kubernetes</li>
+    				<li>Helm Charts</li>
+    				<li>docker-compose</li>
+    				<li>Security/Networking</li>
+    				<li>AWS</li>
+    				<li>CI/CD pipelines</li>
+    				<li>GitLab</li>
+    				<li>GitHub</li>
+    				<li>Ansible</li>
+    				<li>Bash scripting</li>
+    				<li>Linux</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Engineering Practices
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Clean Architecture</li>
+    				<li>DDD</li>
+    				<li>TDD</li>
+    				<li>SSL/TSL</li>
+    				<li>XSS</li>
+    				<li>OAuth</li>
+    				<li>Distr. Apps</li>
+    				<li>Serverless</li>
+    				<li>Functional P.</li>
+    				<li>Design Patterns</li>
+    				<li>Batch Processing</li>
+    				<li>ETL</li>
+    				<li>Event Processing</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Mobile
+    			</h3>
+    			 
+    			<div class="level beginner">
+    				<em>Beginner</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Android SDK</li>
+    				<li>Flutter</li>
+    				<li>React Native</li>
+    				<li>MobX</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Other
+    			</h3>
+    			 
+    			<div class="level beginner">
+    				<em>Beginner</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>C++</li>
+    				<li>C#</li>
+    				<li>Unity 3D</li>
+    				<li>Robotics</li>
+    				<li>RTOS</li>
+    				<li>Python</li>
+    				<li>OpenCV</li>
+    				<li>Matlab</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+    
+          <div style="display: flex;">
+            <div style="flex: 1 1 0%;">
+                <header class="clear">
+                  <div class="date">
+                    <span class="startDate">Apr 2022</span>
+                    <span class="endDate">- Current</span>
+                  </div>
+                  <div class="position">Software Engineer</div>
+                  <div class="company">Sitline and other companies as Freelancer</div>
+                </header>
+    
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="location">Remote - Cluj-Napoca, Romania</span>
+    
+            </div>
+          </div>
+    
+          <ul class="keywords">
+            <li>Java 17</li>
+            <li>Kubernetes</li>
+            <li>Helm Charts</li>
+            <li>Grafana</li>
+            <li>Docker</li>
+            <li>docker-compose</li>
+            <li>Ansible</li>
+            <li>Spring Boot</li>
+            <li>Spring Batch</li>
+            <li>PostgreSQL</li>
+            <li>QGIS</li>
+            <li>Linux</li>
+          </ul>
+          <div class="item" id="work-item">
+            <ul class="highlights">
+              <li><p><p>Single-handedly spearheaded the implementation of the backend infrastructure for Java microservices on Kubernetes, leveraging Helm charts. This involved architecting and setting up the entire infrastructure for the microservices, ensuring seamless deployment, scalability, development and management of the application.</p></p></li>
+              <li><p><p>Demonstrated expertise in designing both low-level and high-level system architectures, ensuring seamless data flow between multiple services.</p></p></li>
+              <li><p><p>Developed efficient Extract, Transform, Load (ETL) processes for on-prem solutions, enabling smooth data integration and processing.</p></p></li>
+              <li><p><p>Implemented parallel workflows, significantly reducing the processing time of large-scale data batches.</p></p></li>
+              <li><p><p>Optimized batch jobs by updating them for GraalVM, resulting in reduced package size and improved memory usage.</p></p></li>
+              <li><p><p>Successfully migrated Java processes and databases to AWS, resulting in a significant reduction of hosting costs by approximately 60%, while maintaining system functionality and performance.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-1"></label>
+    
+          <div style="display: flex;">
+            <img style="flex: none; max-width: 40px; max-height: 40px; margin-right: 8px;" class="image" src="images/siemens.jpeg" alt="Siemens Energy" />
+            <div style="flex: 1 1 0%;">
+                <header class="clear">
+                  <div class="date">
+                    <span class="startDate">Sep 2021</span>
+                    <span class="endDate">- Apr 2022</span>
+                  </div>
+                  <div class="position">Software Engineer &amp; Scrum Master</div>
+                  <div class="company">Siemens Energy</div>
+                </header>
+    
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="location">Remote - Cluj-Napoca, Romania</span>
+    
+                <span class="url">
+                  <span class="fas fa-external-link-alt"></span>
+                  <a target="_blank" href="https://www.linkedin.com/company/siemens-energy">https://www.linkedin.com/company/siemens-energy</a>
+                </span>
+            </div>
+          </div>
+    
+          <ul class="keywords">
+            <li>Java 11</li>
+            <li>Spring Boot microservices</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>PostgreSQL</li>
+            <li>React</li>
+            <li>Typescript</li>
+            <li>React Table</li>
+            <li>React Query</li>
+            <li>React Aria</li>
+            <li>Nx</li>
+            <li>TailwindCSS</li>
+            <li>Storybook</li>
+            <li>Linux</li>
+          </ul>
+          <div class="item" id="work-item">
+            <div class="summary"><p><p>Worked on a web based operational platform designed for power plants:</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Contributed to project setup process for a greenfield project, strategically defining agile processes and selecting optimal technologies to ensure project success.</p></p></li>
+              <li><p><p>Provided valuable coaching and guidance to the Product Owner (PO) in user story creation, road-map adjustments, and prioritization, leading to improved project alignment and execution.</p></p></li>
+              <li><p><p>Enforced the adoption of best practices, such as the &quot;Feature / Vertical Stories&quot; and &quot;API Design First&quot; approach, to maintain high-quality standards throughout development.</p></p></li>
+              <li><p><p>Successfully delivered core features of the application, meeting project milestones.</p></p></li>
+              <li><p><p>Designed and developed a collection of reusable UI components, including a modular data table with customizable features, enhancing code reusability and improving development efficiency.</p></p></li>
+              <li><p><p>Assumed the role of the main code reviewer for the FE across three different teams, ensuring code quality, adherence to coding standards, and fostering knowledge sharing among team members.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-2"></label>
+    
+          <div style="display: flex;">
+            <img style="flex: none; max-width: 40px; max-height: 40px; margin-right: 8px;" class="image" src="images/bosch.jpeg" alt="Bosch" />
+            <div style="flex: 1 1 0%;">
+                <header class="clear">
+                  <div class="date">
+                    <span class="startDate">Jul 2019</span>
+                    <span class="endDate">- Sep 2021</span>
+                  </div>
+                  <div class="position">Software Engineer &amp; Scrum Master</div>
+                  <div class="company">Bosch</div>
+                </header>
+    
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="location">Cluj-Napoca, Romania</span>
+    
+                <span class="url">
+                  <span class="fas fa-external-link-alt"></span>
+                  <a target="_blank" href="https://www.linkedin.com/company/boschromania">https://www.linkedin.com/company/boschromania</a>
+                </span>
+            </div>
+          </div>
+    
+          <ul class="keywords">
+            <li>Java 8</li>
+            <li>Spring</li>
+            <li>Java EE</li>
+            <li>JSF</li>
+            <li>JAX-RS</li>
+            <li>JPA</li>
+            <li>JPQL</li>
+            <li>React</li>
+            <li>jQuery</li>
+            <li>Oracle DB</li>
+            <li>WebLogic</li>
+            <li>JUnit</li>
+            <li>Ant</li>
+            <li>Gradle</li>
+          </ul>
+          <div class="item" id="work-item">
+            <div class="summary"><p><p>Worked on new and legacy (web based) tools made for hardware engineers:</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Successfully led and managed a team of 6 professionals, fostering a collaborative and productive work environment.</p></p></li>
+              <li><p><p>Mentored and trained over 10 individuals, equipping them with the necessary skills and knowledge to navigate software development cycles.</p></p></li>
+              <li><p><p>Streamlined the development cycle and significantly enhanced team productivity by optimizing project setup.</p></p></li>
+              <li><p><p>Implemented architectural changes (Anemic Business Objects =&gt; Rich Business Objects) to effectively reduce the overall code complexity of the project, improved maintainability and scalability for many modules.</p></p></li>
+              <li><p><p>Boosted the performance of multiple web application pages by 30-50% through data access optimization techniques such as JPA, SQL, and data model enhancements.</p></p></li>
+              <li><p><p>Conducted extensive interviews with more than 30 applicants during the seasonal recruitment process, ensuring the selection of technically capable junior team members.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-3"></label>
+    
+          <div style="display: flex;">
+            <img style="flex: none; max-width: 40px; max-height: 40px; margin-right: 8px;" class="image" src="images/ngi.jpeg" alt="NGI Systems" />
+            <div style="flex: 1 1 0%;">
+                <header class="clear">
+                  <div class="date">
+                    <span class="startDate">Oct 2017</span>
+                    <span class="endDate">- Apr 2019</span>
+                  </div>
+                  <div class="position">Software Engineer</div>
+                  <div class="company">NGI Systems</div>
+                </header>
+    
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="location">Cluj-Napoca, Romania</span>
+    
+                <span class="url">
+                  <span class="fas fa-external-link-alt"></span>
+                  <a target="_blank" href="https://www.linkedin.com/company/ngi-systems">https://www.linkedin.com/company/ngi-systems</a>
+                </span>
+            </div>
+          </div>
+    
+          <ul class="keywords">
+            <li>Java 8</li>
+            <li>gRPC</li>
+            <li>ORMlite</li>
+            <li>PostgreSQL</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Android SDK</li>
+            <li>JUnit</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Junit</li>
+            <li>Bazel</li>
+            <li>Linux</li>
+            <li>Jira</li>
+            <li>Git</li>
+          </ul>
+          <div class="item" id="work-item">
+            <div class="summary"><p><p>Worked on FinTech applications and R&amp;D projects:</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Managed and optimized microservices to ensure seamless operations.</p></p></li>
+              <li><p><p>Enhanced efficiency by resolving web application bugs in a Fin-tech company, resulting in a 30% increase in operational effectiveness.</p></p></li>
+              <li><p><p>Spearheaded the development of innovative payment solutions and successfully integrated them with payment gateways (DUKPT key management system).</p></p></li>
+              <li><p><p>Collaborated with our credit card reader vendor to provide valuable feedback on their Firmware and SDK, effectively eliminating integration roadblocks.</p></p></li>
+              <li><p><p>Utilized prior research to devise and implement motion capture strategies, leveraging IMU sensors for improved performance.</p></p></li>
+              <li><p><p>Designed and implemented a prototype Human-Machine Interface for a humanoid robot, utilizing Android SDK for seamless interaction.</p></p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Hobby Projects <span class="item-count">(7)</span></h2>
+      </header>
+      <section id="projects">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 25px; row-gap: 20px;">
+        <section class="project-item">
+                <label for="project-item-0"></label>
+    
+              <header class="clear">
+                <div class="position">WakeApp</div>
+                <div class="date">
+                  <span class="startDate">Oct 2017</span>
+                  <span class="endDate">- Jun 2018</span>
+                </div>
+              </header>
+              <ul class="keywords">
+                  <li>IoT</li>
+                  <li>React Native</li>
+                  <li>TS</li>
+                  <li>Bluetooth LE</li>
+                  <li>nRF51</li>
+                  <li>Arm Mbed</li>
+                  <li>C++</li>
+              </ul>
+              <div class="item">
+                  <div class="summary"><p><p>Developed an innovative an alarm clock system designed to effectively prevent oversleeping. Incorporated technologies utilizing a pressure-sensitive material to accurately detect if the user falls back to sleep.</p></p></div>
+              </div>
+            </section>
+        <section class="project-item">
+                <label for="project-item-1"></label>
+    
+              <header class="clear">
+                <div class="position">Optical Motion Capturing</div>
+                <div class="date">
+                  <span class="startDate">Oct 2017</span>
+                  <span class="endDate">- Jun 2018</span>
+                </div>
+              </header>
+              <span class="website">
+                <span class="fas fa-external-link-alt"></span>
+                <a target="_blank" href="https://youtu.be/euRduM-sYiE">https://youtu.be/euRduM-sYiE</a>
+              </span>
+              <ul class="keywords">
+                  <li>React Native</li>
+                  <li>TS</li>
+                  <li>Bluetooth LE</li>
+                  <li>nRF51</li>
+              </ul>
+              <div class="item">
+                  <div class="summary"><p><p>Implemented a computer stereo vision project focused on extracting precise 3D information from digital images.</p></p></div>
+              </div>
+            </section>
+        <section class="project-item">
+                <label for="project-item-2"></label>
+    
+              <header class="clear">
+                <div class="position">Home Control System</div>
+                <div class="date">
+                  <span class="startDate">Dec 2016</span>
+                  <span class="endDate">- Mar 2017</span>
+                </div>
+              </header>
+              <span class="website">
+                <span class="fas fa-external-link-alt"></span>
+                <a target="_blank" href="https://youtu.be/522xPkjWb9s">https://youtu.be/522xPkjWb9s</a>
+              </span>
+              <ul class="keywords">
+                  <li>PHP</li>
+                  <li>AJAX</li>
+                  <li>ARM</li>
+                  <li>C++</li>
+                  <li>DIY PCB</li>
+                  <li>Wi-Fi communication</li>
+              </ul>
+              <div class="item">
+                  <div class="summary"><p><p>Implemented a web-based application. Demonstrated proficiency in integrating the application with an ATmega microcontroller via a compact WiFi module. Developed an accompanying electrical circuitry to enable remote control of various devices within my room through internet connectivity.</p></p></div>
+              </div>
+            </section>
+        <section class="project-item">
+    
+              <header class="clear">
+                <div class="position">2D Motion Modeling with Python</div>
+                <div class="date">
+                  <span class="startDate">Oct 2017</span>
+                  <span class="endDate">- Jun 2018</span>
+                </div>
+              </header>
+              <span class="website">
+                <span class="fas fa-external-link-alt"></span>
+                <a target="_blank" href="https://youtu.be/4OrqEjw6cVo">https://youtu.be/4OrqEjw6cVo</a>
+              </span>
+              <ul class="keywords">
+                  <li>Python</li>
+                  <li>Graphs</li>
+                  <li>Canvas</li>
+                  <li>Interpolation</li>
+              </ul>
+              <div class="item">
+              </div>
+            </section>
+        <section class="project-item">
+                <label for="project-item-4"></label>
+    
+              <header class="clear">
+                <div class="position">Modeling Kinematics in MATLAB</div>
+                <div class="date">
+                  <span class="startDate">Oct 2017</span>
+                  <span class="endDate">- Jun 2018</span>
+                </div>
+              </header>
+              <span class="website">
+                <span class="fas fa-external-link-alt"></span>
+                <a target="_blank" href="https://youtu.be/Qtq1skYjC68">https://youtu.be/Qtq1skYjC68</a>
+              </span>
+              <ul class="keywords">
+                  <li>React Native</li>
+                  <li>TS</li>
+                  <li>Bluetooth LE</li>
+                  <li>nRF51</li>
+              </ul>
+              <div class="item">
+                  <div class="summary"><p><p>Developed a Python app utilizing cubic interpolation to generate the path of a Stewart Platform's tooltip. Users can interact with a canvas, creating points that are saved and loaded in Matlab. The resulting motion is visualized in Matlab, showcasing proficiency in kinematics and simulation.</p></p></div>
+              </div>
+            </section>
+        <section class="project-item">
+                <label for="project-item-5"></label>
+    
+              <header class="clear">
+                <div class="position">Ping-pong Playing Robots</div>
+                <div class="date">
+                  <span class="startDate">Oct 2017</span>
+                  <span class="endDate">- Jun 2018</span>
+                </div>
+              </header>
+              <span class="website">
+                <span class="fas fa-external-link-alt"></span>
+                <a target="_blank" href="https://youtu.be/xQ4TpXagixU">https://youtu.be/xQ4TpXagixU</a>
+              </span>
+              <ul class="keywords">
+                  <li>Robot Studio</li>
+                  <li>C#</li>
+                  <li>Trajectory Prediction</li>
+                  <li>Delta Robots</li>
+              </ul>
+              <div class="item">
+                  <div class="summary"><p><p>Implemented physics-based simulation in Robot Studio. Created a dynamic scene featuring two delta robots engaging in a game of ping pong.</p></p></div>
+              </div>
+            </section>
+        <section class="project-item">
+                <label for="project-item-6"></label>
+    
+              <header class="clear">
+                <div class="position">Rigid Body Fitting - Optimization Algorithm</div>
+                <div class="date">
+                  <span class="startDate">Oct 2017</span>
+                  <span class="endDate">- Jun 2018</span>
+                </div>
+              </header>
+              <span class="website">
+                <span class="fas fa-external-link-alt"></span>
+                <a target="_blank" href="https://youtu.be/3sKq9cMq1EU">https://youtu.be/3sKq9cMq1EU</a>
+              </span>
+              <ul class="keywords">
+                  <li>Optimization Problems</li>
+                  <li>SVD</li>
+                  <li>C#</li>
+              </ul>
+              <div class="item">
+                  <div class="summary"><p><p>Implemented a graphical application showcasing the effectiveness of Singular Value Decomposition (SVD) techniques in optimizing solutions for various problems.</p></p></div>
+              </div>
+            </section>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(3)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2018
+              </span>
+              <span class="endDate">
+              - 2020
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Master&#x60;s degree 
+              </div>
+              <div class="area">
+                in Software Engineering
+              </div>
+              <div class="institution">
+                Technical University of Cluj-Napoca
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2014
+              </span>
+              <span class="endDate">
+              - 2018
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Bachelor&#x60;s degree
+              </div>
+              <div class="area">
+                in Robotics
+              </div>
+              <div class="institution">
+                Technical University of Cluj-Napoca
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2010
+              </span>
+              <span class="endDate">
+              - 2014
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                High School
+              </div>
+              <div class="area">
+                : Mathematics and Intensive Informatics
+              </div>
+              <div class="institution">
+                “Mihai Eminescu” National College
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+      <section class="section">
+        <header>
+          <h2 class="section-title">Awards</h2>
+        </header>
+        <section id="awards">
+            <section class="award-item">
+                <label for="award-item-0"></label>
+    
+              <header class="clear">
+                  <div class="date">
+                    2013
+                  </div>
+                <div class="header-left">
+                    <div class="title">
+                      3rd place - National Kalkulusz Programming Contest
+                    </div>
+                    <div class="awarder">
+                      Liceul Teoretic „Bolyai Farkas”
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>National Competition in Informatics: Data structures and Algorithms</p></p></div>
+              </div>
+            </section>
+        </section>
+      </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency advanced speaker">
+              <em>Advanced speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Hungarian
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Romanian
+          </h3>
+          <div class="item">
+            <div class="level fluency advanced speaker">
+              <em>Advanced speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </body>
+</html>
