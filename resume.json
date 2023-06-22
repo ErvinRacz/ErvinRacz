@@ -2,7 +2,7 @@
     "basics": {
         "name": "Ervin Rácz",
         "label": "Software Engineer (Java / Full Stack)",
-        "image": "images/ervin.jpeg",
+        "image": "/images/ervin.jpeg",
         "email": "ervin.racz@protonmail.com",
         "phone": "+40 770 315 098",
         "summary": "Software Engineer with ~6 YOE working on (FinTech & industrial) web applications. I love making system designs, putting complex algorithms and ideas into practice, and I am an advocate of TDD, Clean Architecture, and DDD.",
@@ -50,7 +50,7 @@
         {
             "name": "Siemens Energy",
             "summary": "Worked on a web based operational platform designed for power plants:",
-            "image": "images/siemens.jpeg",
+            "image": "/images/siemens.jpeg",
             "position": "Software Engineer & Scrum Master",
             "url": "https://www.linkedin.com/company/siemens-energy",
             "startDate": "2021-09-01",
@@ -84,7 +84,7 @@
         {
             "name": "Bosch",
             "summary": "Worked on new and legacy (web based) tools made for hardware engineers:",
-            "image": "images/bosch.jpeg",
+            "image": "/images/bosch.jpeg",
             "position": "Software Engineer & Scrum Master",
             "url": "https://www.linkedin.com/company/boschromania",
             "startDate": "2019-07-01",
@@ -118,7 +118,7 @@
         {
             "name": "NGI Systems",
             "summary": "Worked on FinTech applications and R&D projects:",
-            "image": "images/ngi.jpeg",
+            "image": "/images/ngi.jpeg",
             "position": "Software Engineer",
             "url": "https://www.linkedin.com/company/ngi-systems",
             "startDate": "2017-10-01",
