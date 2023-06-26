@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Ervin Rácz",
-        "label": "Software Engineer (Java / Full Stack)",
+        "label": "Software Engineer (Full Stack | Java | React)",
         "image": "/images/ervin.jpeg",
         "email": "ervin.racz@protonmail.com",
         "phone": "+40 770 315 098",
@@ -20,7 +20,7 @@
     },
     "work": [
         {
-            "name": "Sitline and other companies as Freelancer",
+            "name": "as Freelancer with Sitline, Capgemini and other companies",
             "position": "Software Engineer",
             "startDate": "2022-04-01",
             "location": "Remote - Cluj-Napoca, Romania",
@@ -341,6 +341,7 @@
                 "Robotics",
                 "RTOS",
                 "Python",
+                "PHP",
                 "OpenCV",
                 "Matlab"
             ]
