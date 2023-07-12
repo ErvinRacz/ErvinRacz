@@ -1,364 +1,380 @@
 {
-    "basics": {
-        "name": "Ervin Rácz",
-        "label": "Senior Software Engineer (Full Stack: Java, TS & React)",
-        "image": "/images/ervin.jpeg",
-        "email": "ervin.racz@protonmail.com",
-        "phone": "+40 770 315 098",
-        "summary": "Software Engineer with ~6 YOE working on (FinTech & industrial) web applications. I love making system designs, putting complex algorithms and ideas into practice, and I am an advocate of TDD, Clean Architecture, and DDD.",
-        "location": {
-            "city": "Cluj-Napoca",
-            "countryCode": "RO"
-        },
-        "profiles": [
-            {
-                "network": "YouTube",
-                "username": "Old Hobby Projects",
-                "url": "https://www.youtube.com/user/gombike95/videos"
-            }
-        ]
+  "basics": {
+    "name": "Ervin Rácz",
+    "label": "Senior Software Engineer (Full Stack: Java, TS & React)",
+    "image": "/images/ervin.jpeg",
+    "email": "ervin.racz@protonmail.com",
+    "phone": "+40 770 315 098",
+    "summary": "Software Engineer with ~6 YOE working on (FinTech & industrial) web applications. I love making system designs, putting complex algorithms and ideas into practice, and I am an advocate of TDD, Clean Architecture, and DDD.",
+    "location": {
+      "city": "Cluj-Napoca",
+      "countryCode": "RO"
     },
-    "work": [
-        {
-            "name": "different clients as Freelancer",
-            "position": "Software Engineer",
-            "startDate": "2022-04-01",
-            "location": "Remote - Cluj-Napoca, Romania",
-            "keywords": [
-                "Java 17",
-                "Kubernetes",
-                "Helm Charts",
-                "Grafana",
-                "Docker",
-                "docker-compose",
-                "Ansible",
-                "Spring Boot",
-                "Spring Batch",
-                "PostgreSQL",
-                "QGIS",
-                "Linux"
-            ],
-            "highlights": [
-                "Single-handedly spearheaded the implementation of the backend infrastructure for Java microservices on Kubernetes, leveraging Helm charts. This involved architecting and setting up the entire infrastructure for the microservices, ensuring seamless deployment, scalability, development and management of the application.",
-                "Demonstrated expertise in designing both low-level and high-level system architectures, ensuring seamless data flow between multiple services.",
-                "Developed efficient Extract, Transform, Load (ETL) processes for on-prem solutions, enabling smooth data integration and processing.",
-                "Implemented parallel workflows, significantly reducing the processing time of large-scale data batches.",
-                "Optimized batch jobs by updating them for GraalVM, resulting in reduced package size and improved memory usage.",
-                "Successfully migrated Java processes and databases to AWS, resulting in a significant reduction of hosting costs by approximately 60%, while maintaining system functionality and performance."
-            ]
-        },
-        {
-            "name": "Siemens Energy",
-            "summary": "Worked on a web based operational platform designed for power plants:",
-            "image": "/images/siemens.jpeg",
-            "position": "Software Engineer & Scrum Master",
-            "url": "https://www.linkedin.com/company/siemens-energy",
-            "startDate": "2021-09-01",
-            "endDate": "2022-04-01",
-            "location": "Remote - Cluj-Napoca, Romania",
-            "keywords": [
-                "Java 11",
-                "Spring Boot microservices",
-                "Docker",
-                "Kubernetes",
-                "PostgreSQL",
-                "React",
-                "Typescript",
-                "React Table",
-                "React Query",
-                "React Aria",
-                "Nx",
-                "TailwindCSS",
-                "Storybook",
-                "Linux"
-            ],
-            "highlights": [
-                "Contributed to project setup process for a greenfield project, strategically defining agile processes and selecting optimal technologies to ensure project success.",
-                "Provided valuable coaching and guidance to the Product Owner (PO) in user story creation, road-map adjustments, and prioritization, leading to improved project alignment and execution.",
-                "Enforced the adoption of best practices, such as the \"Feature / Vertical Stories\" and \"API Design First\" approach, to maintain high-quality standards throughout development.",
-                "Successfully delivered core features of the application, meeting project milestones.",
-                "Designed and developed a collection of reusable UI components, including a modular data table with customizable features, enhancing code reusability and improving development efficiency.",
-                "Assumed the role of the main code reviewer for the FE across three different teams, ensuring code quality, adherence to coding standards, and fostering knowledge sharing among team members."
-            ]
-        },
-        {
-            "name": "Bosch",
-            "summary": "Worked on new and legacy (web based) tools made for hardware engineers:",
-            "image": "/images/bosch.jpeg",
-            "position": "Software Engineer & Scrum Master",
-            "url": "https://www.linkedin.com/company/boschromania",
-            "startDate": "2019-07-01",
-            "endDate": "2021-09-01",
-            "location": "Cluj-Napoca, Romania",
-            "keywords": [
-                "Java 8",
-                "Spring",
-                "Java EE",
-                "JSF",
-                "JAX-RS",
-                "JPA",
-                "JPQL",
-                "React",
-                "jQuery",
-                "Oracle DB",
-                "WebLogic",
-                "JUnit",
-                "Ant",
-                "Gradle"
-            ],
-            "highlights": [
-                "Successfully led and managed a team of 6 professionals, fostering a collaborative and productive work environment.",
-                "Mentored and trained over 10 individuals, equipping them with the necessary skills and knowledge to navigate software development cycles.",
-                "Streamlined the development cycle and significantly enhanced team productivity by optimizing project setup.",
-                "Implemented architectural changes (Anemic Business Objects => Rich Business Objects) to effectively reduce the overall code complexity of the project, improved maintainability and scalability for many modules.",
-                "Boosted the performance of multiple web application pages by 30-50% through data access optimization techniques such as JPA, SQL, and data model enhancements.",
-                "Conducted extensive interviews with more than 30 applicants during the seasonal recruitment process, ensuring the selection of technically capable junior team members."
-            ]
-        },
-        {
-            "name": "NGI Systems",
-            "summary": "Worked on FinTech applications and R&D projects:",
-            "image": "/images/ngi.jpeg",
-            "position": "Software Engineer",
-            "url": "https://www.linkedin.com/company/ngi-systems",
-            "startDate": "2017-10-01",
-            "endDate": "2019-04-01",
-            "location": "Cluj-Napoca, Romania",
-            "keywords": [
-                "Java 8",
-                "gRPC",
-                "ORMlite",
-                "PostgreSQL",
-                "React",
-                "TypeScript",
-                "Android SDK",
-                "JUnit",
-                "Docker",
-                "Kubernetes",
-                "Junit",
-                "Bazel",
-                "Linux",
-                "Jira",
-                "Git"
-            ],
-            "highlights": [
-                "Managed and optimized microservices to ensure seamless operations.",
-                "Enhanced efficiency by resolving web application bugs in a Fin-tech company, resulting in a 30% increase in operational effectiveness.",
-                "Spearheaded the development of innovative payment solutions and successfully integrated them with payment gateways (DUKPT key management system).",
-                "Collaborated with our credit card reader vendor to provide valuable feedback on their Firmware and SDK, effectively eliminating integration roadblocks.",
-                "Utilized prior research to devise and implement motion capture strategies, leveraging IMU sensors for improved performance.",
-                "Designed and implemented a prototype Human-Machine Interface for a humanoid robot, utilizing Android SDK for seamless interaction."
-            ]
-        }
-    ],
-    "projects": [
-        {
-            "name": "WakeApp",
-            "summary": "Developed an innovative an alarm clock system designed to effectively prevent oversleeping. Incorporated technologies utilizing a pressure-sensitive material to accurately detect if the user falls back to sleep.",
-            "startDate": "2017-10-01",
-            "endDate": "2018-06-01",
-            "city": "Cluj-Napoca",
-            "keywords": ["IoT","React Native", "TS", "Bluetooth LE", "nRF51", "Arm Mbed", "C++"]
-        },
-        {
-            "name": "Optical Motion Capturing",
-            "summary": "Implemented a computer stereo vision project focused on extracting precise 3D information from digital images.",
-            "startDate": "2017-10-01",
-            "endDate": "2018-06-01",
-            "city": "Cluj-Napoca",
-            "url": "https://youtu.be/euRduM-sYiE",
-            "keywords": ["React Native", "TS", "Bluetooth LE", "nRF51"]
-        },
-        {
-            "name": "Home Control System",
-            "summary": "Implemented a web-based application. Demonstrated proficiency in integrating the application with an ATmega microcontroller via a compact WiFi module. Developed an accompanying electrical circuitry to enable remote control of various devices within my room through internet connectivity.",
-            "startDate": "2016-12-01",
-            "endDate": "2017-03-01",
-            "city": "Cluj-Napoca",
-            "url": "https://youtu.be/522xPkjWb9s",
-            "keywords": ["PHP", "AJAX", "ARM", "C++", "DIY PCB", "Wi-Fi communication"]
-        },
-        {
-            "name": "2D Motion Modeling with Python",
-            "startDate": "2017-10-01",
-            "endDate": "2018-06-01",
-            "city": "Cluj-Napoca",
-            "url": "https://youtu.be/4OrqEjw6cVo",
-            "keywords": ["Python", "Graphs", "Canvas", "Interpolation"]
-        },
-        {
-            "name": "Modeling Kinematics in MATLAB",
-            "summary": "Developed a Python app utilizing cubic interpolation to generate the path of a Stewart Platform's tooltip. Users can interact with a canvas, creating points that are saved and loaded in Matlab. The resulting motion is visualized in Matlab, showcasing proficiency in kinematics and simulation.",
-            "startDate": "2017-10-01",
-            "endDate": "2018-06-01",
-            "city": "Cluj-Napoca",
-            "url": "https://youtu.be/Qtq1skYjC68",
-            "keywords": ["React Native", "TS", "Bluetooth LE", "nRF51"]
-        },
-
-{
-            "name": "Ping-pong Playing Robots",
-            "summary": "Implemented physics-based simulation in Robot Studio. Created a dynamic scene featuring two delta robots engaging in a game of ping pong.",
-            "startDate": "2017-10-01",
-            "endDate": "2018-06-01",
-            "city": "Cluj-Napoca",
-            "url": "https://youtu.be/xQ4TpXagixU",
-            "keywords": ["Robot Studio", "C#", "Trajectory Prediction", "Delta Robots"]
-        },
-        {
-            "name": "Rigid Body Fitting - Optimization Algorithm",
-            "summary": "Implemented a graphical application showcasing the effectiveness of Singular Value Decomposition (SVD) techniques in optimizing solutions for various problems.",
-            "startDate": "2017-10-01",
-            "endDate": "2018-06-01",
-            "city": "Cluj-Napoca",
-            "url": "https://youtu.be/3sKq9cMq1EU",
-            "keywords": ["Optimization Problems", "SVD", "C#"]
-        }
-    ],
-    "education": [
-        {
-            "institution": "Technical University of Cluj-Napoca",
-            "area": "in Software Engineering",
-            "studyType": "Master`s degree ",
-            "startDate": "2018-10-01",
-            "endDate": "2020-06-01"
-        },
-        {
-            "institution": "Technical University of Cluj-Napoca",
-            "area": "in Robotics",
-            "studyType": "Bachelor`s degree",
-            "startDate": "2014-09-01",
-            "endDate": "2018-07-01"
-        },
-        {
-            "institution": "“Mihai Eminescu” National College",
-            "area": ": Mathematics and Intensive Informatics",
-            "studyType": "High School",
-            "startDate": "2010-09-01",
-            "endDate": "2014-07-01"
-        }
-    ],
-    "awards": [
-        {
-            "title": "3rd place - National Kalkulusz Programming Contest",
-            "date": "2013-03-01",
-            "awarder": "Liceul Teoretic „Bolyai Farkas”",
-            "summary": "National Competition in Informatics: Data structures and Algorithms"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Front End",
-            "level": "Advanced",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "TailwindCSS",
-                "React",
-                "JQuery",
-                "TypeScript",
-                "React Table",
-                "React Query",
-                "Redux",
-                "Zustand",
-                "Nx Micro-FrontEnds"
-            ]
-        },
-        {
-            "name": "Back End",
-            "level": "Advanced",
-            "keywords": [
-                "Java",
-                "Spring Boot",
-                "TypeScript",
-                "NodeJS",
-                "Next.js",
-                "Spring Batch",
-                "gRPC",
-                "REST",
-                "Microservices",
-                "SQL",
-                "Prisma",
-                "JPA",
-                "PostgreSQL",
-                "Redis"
-            ]
-        },
-        {
-            "name": "DevOps",
-            "level": "Advanced",
-            "keywords": [
-                "Docker",
-                "Kubernetes",
-                "Helm Charts",
-                "docker-compose",
-                "Security/Networking",
-                "AWS",
-                "CI/CD pipelines",
-                "GitLab",
-                "GitHub",
-                "Ansible",
-                "Bash scripting",
-                "Linux"
-            ]
-        },
-        {
-            "name": "Engineering Practices",
-            "level": "Advanced",
-            "keywords": [
-                "Clean Architecture",
-                "DDD",
-                "TDD",
-                "SSL/TSL",
-                "XSS",
-                "OAuth",
-                "Distr. Apps",
-                "Serverless",
-                "Functional P.",
-                "Design Patterns",
-                "Batch Processing",
-                "ETL",
-                "Event Processing"
-            ]
-        },
-        {
-            "name": "Mobile",
-            "level": "Beginner",
-            "keywords": [
-                "Android SDK",
-                "Flutter",
-                "React Native",
-                "MobX"
-            ]
-        },
-        {
-            "name": "Other",
-            "level": "Beginner",
-            "keywords": [
-                "C++",
-                "C#",
-                "Unity 3D",
-                "Robotics",
-                "RTOS",
-                "Python",
-                "PHP",
-                "OpenCV",
-                "Matlab"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "fluency": "Advanced speaker"
-        },
-        {
-            "language": "Hungarian",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "Romanian",
-            "fluency": "Advanced speaker"
-        }
+    "profiles": [
+      {
+        "network": "YouTube",
+        "username": "Old Hobby Projects",
+        "url": "https://www.youtube.com/user/gombike95/videos"
+      }
     ]
+  },
+  "work": [
+    {
+      "name": "different clients as Freelancer",
+      "position": "Software Engineer",
+      "startDate": "2022-04-01",
+      "location": "Remote - Cluj-Napoca, Romania",
+      "keywords": [
+        "Java 17",
+        "Kubernetes",
+        "Helm Charts",
+        "Grafana",
+        "Docker",
+        "docker-compose",
+        "Ansible",
+        "Spring Boot",
+        "Spring Batch",
+        "PostgreSQL",
+        "QGIS",
+        "Linux"
+      ],
+      "highlights": [
+        "Single-handedly spearheaded the implementation of the backend infrastructure for Java microservices on Kubernetes, leveraging Helm charts. This involved architecting and setting up the entire infrastructure for the microservices, ensuring seamless deployment, scalability, development and management of the application.",
+        "Demonstrated expertise in designing both low-level and high-level system architectures, ensuring seamless data flow between multiple services.",
+        "Developed efficient Extract, Transform, Load (ETL) processes for on-prem solutions, enabling smooth data integration and processing.",
+        "Implemented parallel workflows, significantly reducing the processing time of large-scale data batches.",
+        "Optimized batch jobs by updating them for GraalVM, resulting in reduced package size and improved memory usage.",
+        "Successfully migrated Java processes and databases to AWS, resulting in a significant reduction of hosting costs by approximately 60%, while maintaining system functionality and performance."
+      ]
+    },
+    {
+      "name": "Siemens Energy",
+      "summary": "Worked on a web based operational platform designed for power plants:",
+      "image": "/images/siemens.jpeg",
+      "position": "Software Engineer & Scrum Master",
+      "url": "https://www.linkedin.com/company/siemens-energy",
+      "startDate": "2021-09-01",
+      "endDate": "2022-04-01",
+      "location": "Remote - Cluj-Napoca, Romania",
+      "keywords": [
+        "Java 11",
+        "Spring Boot microservices",
+        "Docker",
+        "Kubernetes",
+        "PostgreSQL",
+        "React",
+        "Typescript",
+        "React Table",
+        "React Query",
+        "React Aria",
+        "Nx",
+        "TailwindCSS",
+        "Storybook",
+        "Linux"
+      ],
+      "highlights": [
+        "Contributed to project setup process for a greenfield project, strategically defining agile processes and selecting optimal technologies to ensure project success.",
+        "Provided valuable coaching and guidance to the Product Owner (PO) in user story creation, road-map adjustments, and prioritization, leading to improved project alignment and execution.",
+        "Enforced the adoption of best practices, such as the \"Feature / Vertical Stories\" and \"API Design First\" approach, to maintain high-quality standards throughout development.",
+        "Successfully delivered core features of the application, meeting project milestones.",
+        "Designed and developed a collection of reusable UI components, including a modular data table with customizable features, enhancing code reusability and improving development efficiency.",
+        "Assumed the role of the main code reviewer for the FE across three different teams, ensuring code quality, adherence to coding standards, and fostering knowledge sharing among team members."
+      ]
+    },
+    {
+      "name": "Bosch",
+      "summary": "Worked on new and legacy (web based) tools made for hardware engineers:",
+      "image": "/images/bosch.jpeg",
+      "position": "Software Engineer & Scrum Master",
+      "url": "https://www.linkedin.com/company/boschromania",
+      "startDate": "2019-07-01",
+      "endDate": "2021-09-01",
+      "location": "Cluj-Napoca, Romania",
+      "keywords": [
+        "Java 8",
+        "Spring",
+        "Java EE",
+        "JSF",
+        "JAX-RS",
+        "JPA",
+        "JPQL",
+        "React",
+        "jQuery",
+        "Oracle DB",
+        "WebLogic",
+        "JUnit",
+        "Ant",
+        "Gradle"
+      ],
+      "highlights": [
+        "Successfully led and managed a team of 6 professionals, fostering a collaborative and productive work environment.",
+        "Mentored and trained over 10 individuals, equipping them with the necessary skills and knowledge to navigate software development cycles.",
+        "Streamlined the development cycle and significantly enhanced team productivity by optimizing project setup.",
+        "Implemented architectural changes (Anemic Business Objects => Rich Business Objects) to effectively reduce the overall code complexity of the project, improved maintainability and scalability for many modules.",
+        "Boosted the performance of multiple web application pages by 30-50% through data access optimization techniques such as JPA, SQL, and data model enhancements.",
+        "Conducted extensive interviews with more than 30 applicants during the seasonal recruitment process, ensuring the selection of technically capable junior team members."
+      ]
+    },
+    {
+      "name": "NGI Systems",
+      "summary": "Worked on FinTech applications and R&D projects:",
+      "image": "/images/ngi.jpeg",
+      "position": "Software Engineer",
+      "url": "https://www.linkedin.com/company/ngi-systems",
+      "startDate": "2017-10-01",
+      "endDate": "2019-04-01",
+      "location": "Cluj-Napoca, Romania",
+      "keywords": [
+        "Java 8",
+        "gRPC",
+        "ORMlite",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "Android SDK",
+        "JUnit",
+        "Docker",
+        "Kubernetes",
+        "Junit",
+        "Bazel",
+        "Linux",
+        "Jira",
+        "Git"
+      ],
+      "highlights": [
+        "Managed and optimized microservices to ensure seamless operations.",
+        "Enhanced efficiency by resolving web application bugs in a Fin-tech company, resulting in a 30% increase in operational effectiveness.",
+        "Spearheaded the development of innovative payment solutions and successfully integrated them with payment gateways (DUKPT key management system).",
+        "Collaborated with our credit card reader vendor to provide valuable feedback on their Firmware and SDK, effectively eliminating integration roadblocks.",
+        "Utilized prior research to devise and implement motion capture strategies, leveraging IMU sensors for improved performance.",
+        "Designed and implemented a prototype Human-Machine Interface for a humanoid robot, utilizing Android SDK for seamless interaction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "WakeApp",
+      "summary": "Developed an innovative an alarm clock system designed to effectively prevent oversleeping. Incorporated technologies utilizing a pressure-sensitive material to accurately detect if the user falls back to sleep.",
+      "startDate": "2017-10-01",
+      "endDate": "2018-06-01",
+      "city": "Cluj-Napoca",
+      "keywords": [
+        "IoT",
+        "React Native",
+        "TS",
+        "Bluetooth LE",
+        "nRF51",
+        "Arm Mbed",
+        "C++"
+      ]
+    },
+    {
+      "name": "Optical Motion Capturing",
+      "summary": "Implemented a computer stereo vision project focused on extracting precise 3D information from digital images.",
+      "startDate": "2017-10-01",
+      "endDate": "2018-06-01",
+      "city": "Cluj-Napoca",
+      "url": "https://youtu.be/euRduM-sYiE",
+      "keywords": ["React Native", "TS", "Bluetooth LE", "nRF51"]
+    },
+    {
+      "name": "Home Control System",
+      "summary": "Implemented a web-based application. Demonstrated proficiency in integrating the application with an ATmega microcontroller via a compact WiFi module. Developed an accompanying electrical circuitry to enable remote control of various devices within my room through internet connectivity.",
+      "startDate": "2016-12-01",
+      "endDate": "2017-03-01",
+      "city": "Cluj-Napoca",
+      "url": "https://youtu.be/522xPkjWb9s",
+      "keywords": [
+        "PHP",
+        "AJAX",
+        "ARM",
+        "C++",
+        "DIY PCB",
+        "Wi-Fi communication"
+      ]
+    },
+    {
+      "name": "2D Motion Modeling with Python",
+      "startDate": "2017-10-01",
+      "endDate": "2018-06-01",
+      "city": "Cluj-Napoca",
+      "url": "https://youtu.be/4OrqEjw6cVo",
+      "keywords": ["Python", "Graphs", "Canvas", "Interpolation"]
+    },
+    {
+      "name": "Modeling Kinematics in MATLAB",
+      "summary": "Developed a Python app utilizing cubic interpolation to generate the path of a Stewart Platform's tooltip. Users can interact with a canvas, creating points that are saved and loaded in Matlab. The resulting motion is visualized in Matlab, showcasing proficiency in kinematics and simulation.",
+      "startDate": "2017-10-01",
+      "endDate": "2018-06-01",
+      "city": "Cluj-Napoca",
+      "url": "https://youtu.be/Qtq1skYjC68",
+      "keywords": ["React Native", "TS", "Bluetooth LE", "nRF51"]
+    },
+
+    {
+      "name": "Ping-pong Playing Robots",
+      "summary": "Implemented physics-based simulation in Robot Studio. Created a dynamic scene featuring two delta robots engaging in a game of ping pong.",
+      "startDate": "2017-10-01",
+      "endDate": "2018-06-01",
+      "city": "Cluj-Napoca",
+      "url": "https://youtu.be/xQ4TpXagixU",
+      "keywords": [
+        "Robot Studio",
+        "C#",
+        "Trajectory Prediction",
+        "Delta Robots"
+      ]
+    },
+    {
+      "name": "Rigid Body Fitting - Optimization Algorithm",
+      "summary": "Implemented a graphical application showcasing the effectiveness of Singular Value Decomposition (SVD) techniques in optimizing solutions for various problems.",
+      "startDate": "2017-10-01",
+      "endDate": "2018-06-01",
+      "city": "Cluj-Napoca",
+      "url": "https://youtu.be/3sKq9cMq1EU",
+      "keywords": ["Optimization Problems", "SVD", "C#"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Technical University of Cluj-Napoca",
+      "area": "in Software Engineering",
+      "studyType": "Master`s degree ",
+      "startDate": "2018-10-01",
+      "endDate": "2020-06-01"
+    },
+    {
+      "institution": "Technical University of Cluj-Napoca",
+      "area": "in Robotics",
+      "studyType": "Bachelor`s degree",
+      "startDate": "2014-09-01",
+      "endDate": "2018-07-01"
+    },
+    {
+      "institution": "“Mihai Eminescu” National College",
+      "area": ": Mathematics and Intensive Informatics",
+      "studyType": "High School",
+      "startDate": "2010-09-01",
+      "endDate": "2014-07-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "3rd place - National Kalkulusz Programming Contest",
+      "date": "2013-03-01",
+      "awarder": "Liceul Teoretic „Bolyai Farkas”",
+      "summary": "National Competition in Informatics: Data structures and Algorithms"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front End",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "TailwindCSS",
+        "React",
+        "JQuery",
+        "TypeScript",
+        "React Table",
+        "React Query",
+        "Redux",
+        "Zustand",
+        "Nx Micro-FrontEnds"
+      ]
+    },
+    {
+      "name": "Back End",
+      "level": "Advanced",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "TypeScript",
+        "NodeJS",
+        "Next.js",
+        "Spring Batch",
+        "gRPC",
+        "REST",
+        "Microservices",
+        "SQL",
+        "Prisma",
+        "JPA",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Helm Charts",
+        "docker-compose",
+        "Security/Networking",
+        "AWS",
+        "CI/CD pipelines",
+        "GitLab",
+        "GitHub",
+        "Ansible",
+        "Bash scripting",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Engineering Practices",
+      "level": "Advanced",
+      "keywords": [
+        "Clean Architecture",
+        "DDD",
+        "TDD",
+        "SSL/TSL",
+        "XSS",
+        "OAuth",
+        "Distr. Apps",
+        "Serverless",
+        "Functional P.",
+        "Design Patterns",
+        "Batch Processing",
+        "ETL",
+        "Event Processing"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "level": "Beginner",
+      "keywords": ["Android SDK", "Flutter", "React Native", "MobX"]
+    },
+    {
+      "name": "Other",
+      "level": "Beginner",
+      "keywords": [
+        "Go",
+        "C++",
+        "C#",
+        "Unity 3D",
+        "Robotics",
+        "RTOS",
+        "Python",
+        "PHP",
+        "OpenCV",
+        "Matlab"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced speaker"
+    },
+    {
+      "language": "Hungarian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Romanian",
+      "fluency": "Advanced speaker"
+    }
+  ]
 }
